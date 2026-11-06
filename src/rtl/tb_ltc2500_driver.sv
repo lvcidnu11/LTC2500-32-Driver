@@ -54,7 +54,7 @@ module tb_ltc2500_driver;
         .o_debug_state(state)
     );
 
-    ltc2500 adc_inst (
+    ltc2500_slave adc_inst (
         .mclk(mclk),
         .busy(busy),
         .drl(drl),
